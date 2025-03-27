@@ -1,0 +1,12 @@
+class Mobiledetails {
+   public static void main (String[] args){
+               int Mob_cost = 25000;
+	       String Mob_model = "Realme2 Pro";
+	       String Mob_colour = "Blue";
+
+
+	       System.out.println(Mob_cost);
+	        System.out.println(Mob_model);
+		 System.out.println(Mob_colour);
+   }
+}

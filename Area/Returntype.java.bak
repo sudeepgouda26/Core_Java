@@ -1,0 +1,79 @@
+class Returntype{
+ static final double pi = 3.142;
+
+ static int triangle(int b, int  h){
+
+int res = b* h;
+return res;
+ }
+
+  static int rectangle(int w,int  h ){
+
+int res = w* h;
+return res;
+ }
+
+   static int square(int a ){
+
+int res = a*a;
+return res;
+ }
+
+
+
+   static int parallelgram(int  b , int  h ){
+
+int res = b* h;
+return res ;
+ }
+
+   static double trapizoid(int  b,int  h, int a  ){
+
+double res = 0.5*(a+b)* h;
+return res;
+ }
+
+    static double circle(int r){
+
+double res = pi * r*r;
+return res;
+ }
+ 
+   static double ellipse(int  b,int  h ){
+
+
+double res = pi * h * b;
+return res;
+ }
+
+    static double sector(int  b, double h){
+
+
+
+double res = 0.5 * b * b *h;
+return res;
+ }
+ 
+
+
+
+public static void main(String[]  args){
+ int t = triangle(3,2);
+ System.out.println(t);
+  int rc = rectangle(4,2);
+   System.out.println(rc);
+ int sq = square(4);
+  System.out.println(sq);
+  int pa = parallelgram(3,4);
+   System.out.println(pa);
+ double tra = trapizoid(2,4,6);
+  System.out.println(tra);
+  int ca =  circle(5);
+   System.out.println(ca);
+  double el = ellipse(3,5);
+   System.out.println(el);
+   double sc =sector(2,30.5);
+    System.out.println(sc);
+}
+
+}

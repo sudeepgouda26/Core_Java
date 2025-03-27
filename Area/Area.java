@@ -1,0 +1,78 @@
+class Area{
+ static final double pi = 3.142;
+
+ static void triangle(){
+int b =2;
+int  h =2;
+int res = b* h;
+System.out.println(res);
+ }
+
+  static void rectangle(){
+int w =2;
+int  h =2;
+int res = w* h;
+System.out.println(res);
+ }
+
+   static void square(){
+int a =2;
+
+int res = a*a;
+System.out.println(res);
+ }
+
+
+
+   static void parallelgram(){
+int  b=2;
+int  h =2;
+int res = b* h;
+System.out.println(res);
+ }
+
+   static void trapizoid(){
+int  b=2;
+int  h =2;
+int a =2;
+double res = 0.5*(a+b)* h;
+System.out.println(res);
+ }
+
+    static void circle(){
+int r =5;
+double res = pi * r*r;
+System.out.println(res);
+ }
+ 
+   static void ellipse(){
+int  b=2;
+int  h =2;
+
+double res = pi * h * b;
+System.out.println(res);
+ }
+
+    static void sector(){
+int  b=2;
+ double h =25.5;
+
+double res = 0.5 * b * b *h;
+System.out.println(res);
+ }
+ 
+
+
+
+public static void main(String[]  args){
+  triangle();
+  rectangle();
+  square();
+  parallelgram();
+  trapizoid();
+  circle();
+  ellipse();
+  sector();
+}
+
+}

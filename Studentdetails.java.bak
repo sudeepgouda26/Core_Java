@@ -1,0 +1,8 @@
+class Studentdetails{
+  public static void main(String[] args){
+  System.out.println("Sudeep G Gouda");
+  System.out.println("Shree Devi Institue of Technology  Manglore " );
+  System.out.println("Govind Manju gouda");
+  System.out.println("Kusuma Govind Gouda " );
+  }
+}

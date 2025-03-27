@@ -1,0 +1,72 @@
+class Triangle{
+    void area(){
+        int  b=2,h=5;
+        double res = 0.5*b*h;
+        System.out.println("Area of Triangle: "+res);
+    }
+
+}
+class Circle{
+    void area(){
+        int r=5;
+        double res = 3.14*r*r;
+        System.out.println("Area of Circle: "+res);
+    }
+}
+class Square{
+    void area(){
+        int s=4;
+        double res = s*s;
+        System.out.println("Area of Square: "+res);
+    }
+}
+class Rectangle{
+    void area(){
+        int l=4,b=5;
+        double res = l*b;
+        System.out.println("Area of Rectangle: "+res);
+    }
+}
+class Parallelogram{
+    void area(){
+        int b=4,h=5;
+        double res = b*h;
+        System.out.println("Area of Parallelogram: "+res);
+    }
+}
+class Ellipse{
+    void area(){
+        int a=4,b=5;
+        double res = 3.14*a*b;
+        System.out.println("Area of Ellipse: "+res);
+    }
+}
+
+class Sector{
+    void area(){
+        int r=5,angle=30;
+        double res = 0.5*r*r*angle;
+        System.out.println("Area of Sector: "+res);
+    }
+}
+
+class trapazoid{
+    void area(){
+        int a=4,b=5,h=6;
+        double res = 0.5*(a+b)*h;
+        System.out.println("Area of Trapazoid: "+res);
+    }
+}
+class MainNonStatic{
+    public static void main(String[] args){
+        new Triangle().area();
+        new Circle().area();
+        new Square().area();
+        new Rectangle().area();
+        new Parallelogram().area();
+        new Ellipse().area();
+        new Sector().area();
+        new trapazoid().area();
+    }
+}
+
