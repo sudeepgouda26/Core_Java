@@ -1,0 +1,34 @@
+interface Sample
+{
+
+	void shoes();
+}
+
+
+interface  Demo  extends Sample{
+
+void bags();
+
+
+}
+
+class Test implements Demo{
+
+
+public void shoes(){
+ System.out.println("Shoes")
+}
+ public void bags(){
+	 System.out.println("Bags")
+ }
+
+class Mainclass3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Test t = new Test();
+		t.shoes();
+		t.bags();
+	}
+}

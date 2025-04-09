@@ -1,0 +1,29 @@
+interface Sample
+{
+	void disp();
+	void cool();
+}
+
+
+class Demo implements Sample
+{
+	public void disp(){
+		System.out.println(" helloo Disp")
+
+	}
+	public void cool(){
+		System.out.println("hello cool")
+
+	}
+}
+
+class Mainclass 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Demo d1  = new Demo();
+		d1.disp();
+		d1.cool();
+	}
+}

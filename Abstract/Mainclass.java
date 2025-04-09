@@ -1,0 +1,31 @@
+abstract class Sample1
+{
+	abstract void signup();
+	abstract void login();
+}
+ abstract class Demo extends Sample1{
+	void login(){
+		System.out.println("hello Login Succesfully");
+	}
+	// void signup()
+}
+class Test extends Demo{
+	//void login(){
+	//	System.out.println("hello Login Succesfully");
+	//}
+void signup(){
+
+	System.out.println("signup succesfully");
+}
+}
+class  Mainclass
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+
+		Test t1 = new Test();
+		t1.signup();
+		t1.login();
+	}
+}
