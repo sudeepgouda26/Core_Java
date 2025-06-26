@@ -1,0 +1,43 @@
+# Java class files
+*.class
+
+# Logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Eclipse-specific files
+.project
+.classpath
+.settings/
+bin/
+tmp/
+*.launch
+
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
